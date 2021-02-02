@@ -1,3 +1,6 @@
-a,b = map(int,input().split())
-c = a+b
-print(c)
+a = int(input())
+b = 0
+for i in range(0,a):
+    b = b+i+1
+
+print(b)

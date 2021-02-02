@@ -1,1 +1,1 @@
-print("hello")
+print("{2:d} {1:x} {1:d}".format(100,200, 300))
