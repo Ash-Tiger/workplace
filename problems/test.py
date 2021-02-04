@@ -1,1 +1,7 @@
-print(int(-(-(3+(12*int(input())-3)**.5)//6)))
+import sys
+
+n = sys.stdin.read()
+a=[]
+a.extend(sys.stdin.readline().split())
+
+print(a)
