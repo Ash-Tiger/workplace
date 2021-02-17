@@ -1,18 +1,13 @@
-import sys
+A=[]
+B = []
 
-n = sys.stdin.read()
-a = list(map(int,sys.stdin.read()))
+tt = '888'
+su=0
+A.extend(tt)
+print(A)
 
-print(n, a)
+for i in A:
+    su += int(i)
+print(su)
 
-for i in range(a):
-    if maxx > i:
-        
-    else:
-        maxx=i
-
-for i in range(a):
-    if minn >i:
-        minn = i
-
-print(maxx, minn)
+print(B)

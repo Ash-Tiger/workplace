@@ -1,6 +1,10 @@
-a = int(input())
-for i in range(1,a+1):
-    print(' '*(a-i)+'*'*(i))
+import sys
+n = int(sys.stdin.readline())
+a = list(map(int,sys.stdin.readline().split()))
 
-print('abc','cdf') # , 로 구분하면 , 부분은 공백 처리
-print('abc'+'cdf') # +로 구문하면 + 사이 공백없이 연결됨
+M = max(a)
+T=0
+for i in a:
+    T = T + (i/M)*100
+
+print(T/n)
