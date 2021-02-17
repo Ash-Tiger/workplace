@@ -7,7 +7,7 @@ for i in range(1,10001):
     for j in A:
         nonselnum += int(j)
     B.append(nonselnum+i)
-    if nonselnum+i > 10001:
+    if nonselnum+i > 20000:
         break
     
 for k in range(1,10001):
