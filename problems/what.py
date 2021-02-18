@@ -1,3 +1,4 @@
-asdd = asdfghzx
+N = 10
+H = 6 
 
-for i 
+print(N//6)
