@@ -1,4 +1,2 @@
-N = 10
-H = 6 
-
-print(N//6)
+A = range(7:0)
+print(A)
