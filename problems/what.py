@@ -1,2 +1,4 @@
-A = range(7:0)
-print(A)
+A = 'ljes=esnjeaskes'
+print(A.count('es','ke'))
+
+print(len(A))
